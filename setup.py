@@ -87,8 +87,8 @@ setup(
     packages=find_packages(exclude=[]),
     install_requires=requires,
     extras_require={
-        "dev": requires_dev,
-        "studies": requires_studies,
+        "dev": "requires_dev",
+        "studies": "requires_studies",
     },
     python_requires=">=3.7",
 )
